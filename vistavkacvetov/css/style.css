@@ -37,6 +37,8 @@ body {
 }
 .logo a {
   opacity: 0.7;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .logo a:hover {
@@ -61,6 +63,8 @@ nav ul li a {
   font-size: 18px;
   font-family: 'Bebas', sans-serif;
   padding-bottom: 7px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 nav ul li a:hover {
@@ -72,7 +76,6 @@ h1 {
   text-align: center;
   line-height: 80px;
   margin-top: 107px;
-  letter-spacing: 2px;
   font-family: 'JOURNALISM', serif;
   text-weight: normal;
 }
@@ -94,13 +97,16 @@ h1 {
   border: 3px solid #b7b6b6;
   padding: 9px 20px 4px;
   font-family: 'Bebas', sans-serif;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .btn-info:hover {
   color: #ffffff;
   border-color: #ffffff;
   background-color: rgba(152, 151, 151, 0.24);
-  border-radius: 50px;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
   padding: 9px 30px 4px;
 }
 .main {
